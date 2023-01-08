@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController
 class GreetingController {
 
     // foo
+    // More foo
     @GetMapping
     fun greeting(@RequestParam name: String): String {
         return "Hello $name"
